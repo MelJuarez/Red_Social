@@ -20,9 +20,9 @@ async function actualizaGato(api){
         div.classList.add("post")
         caja.appendChild(div);
     
-        console.log("\n/////////////////////////////////////////////////////////////")
-        console.log("Título:  "+element["title"]);
-        console.log("\n Contenido:  "+element["body"]);
+       // console.log("\n/////////////////////////////////////////////////////////////")
+       // console.log("Título:  "+element["title"]);
+       // console.log("\n Contenido:  "+element["body"]);
     })
    
     //buscar_dato(dato);    
