@@ -27,8 +27,8 @@ body{
   /*  border: 3px solid rgb(150, 46, 199);*/
 
     box-shadow: 10px 10px 21px 0px rgba(48,30,0,0.6);
--webkit-box-shadow: 10px 10px 21px 0px rgba(48,30,0,0.6);
--moz-box-shadow: 10px 10px 21px 0px rgba(48,30,0,0.6);
+    -webkit-box-shadow: 10px 10px 21px 0px rgba(48,30,0,0.6);
+    -moz-box-shadow: 10px 10px 21px 0px rgba(48,30,0,0.6);
 
    
 
@@ -39,6 +39,7 @@ body{
     height: 15rem;
     /*background-color: #D3D3D3;*/
     background-color: #bebebe;
+    
 }
 .user{
     width: 100%;
@@ -99,8 +100,32 @@ body{
     justify-content: center;
 
     margin-left: 8%;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: #D3D3D3;
+}
+.menu{
+    width: 100%;
+}
+.opciones{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:flex-end;
+    height: 6rem;
+
+    border-bottom: 2px solid #ddabab;
+    
+}
+
+.opciones a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: #4E3636;
+    
+}
+.opciones li{
+    margin-bottom: 0.5rem;
 }

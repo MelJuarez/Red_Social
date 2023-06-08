@@ -1,7 +1,7 @@
 
 let user_social = "https://jsonplaceholder.typicode.com/users"; //Api usuarios
 
-let detalles_user = `
+/*let detalles_user = `
     <div class="otros">
                 <img class="U" src="./img/usuario.png" alt="">
 
@@ -13,7 +13,7 @@ let detalles_user = `
     </div>
 `;
 let caja_user = document.querySelector(".user");
-caja_user.innerHTML = detalles_user;
+caja_user.innerHTML = detalles_user;*/
 
 
 async function cargando_users (perfil){
